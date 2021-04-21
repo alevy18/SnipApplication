@@ -14,4 +14,8 @@ struct Constants{
         static let sIgnUpViewController = "SIgnUpViewController"
         static let personalInfoViewController = "PersonalInfoViewController"
     }
+    
+    struct TableViewCell{
+        static let blogCellIdentifier = "blogCell"
+    }
 }

@@ -29,6 +29,7 @@ class LoginTests: XCTestCase {
         XCTAssertTrue(p2Result!)
     }
     
+    
     func testContainsSpecialChar(){
         let p1 = "123456789"
         let p2 = "!456789"
