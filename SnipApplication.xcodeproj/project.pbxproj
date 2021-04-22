@@ -123,18 +123,14 @@
 		343601AA262E2BA100AF8FD1 /* SnipApplication */ = {
 			isa = PBXGroup;
 			children = (
-				34F66C6B2630B00D00746E9C /* GoogleService-Info.plist */,
-				343601AB262E2BA100AF8FD1 /* AppDelegate.swift */,
-				343601AD262E2BA100AF8FD1 /* SceneDelegate.swift */,
-				343601AF262E2BA100AF8FD1 /* PersonalInfoViewController.swift */,
-				343601B1262E2BA100AF8FD1 /* Main.storyboard */,
-				347F5FC3263096220094EEC0 /* Blog */,
-				343601F1262E5C1100AF8FD1 /* LoginSignUpViewController.swift */,
-				34360216262E649700AF8FD1 /* Common Files */,
-				347F5FC1263095CD0094EEC0 /* Login */,
-				347F5FC2263095EB0094EEC0 /* Sign Up */,
+				34EC88832631D80D002878E0 /* Supporting Files */,
+				34EC88972631D899002878E0 /* View */,
+				34EC88822631D7E7002878E0 /* View Controllers */,
+				34EC88812631D7D9002878E0 /* Models */,
+				34EC88802631D7C7002878E0 /* View Models */,
+				34EC88922631D873002878E0 /* Extensions */,
 				343601B7262E2BA500AF8FD1 /* Assets.xcassets */,
-				343601B9262E2BA500AF8FD1 /* LaunchScreen.storyboard */,
+				34F66C6B2630B00D00746E9C /* GoogleService-Info.plist */,
 				343601BC262E2BA500AF8FD1 /* Info.plist */,
 				343601B4262E2BA100AF8FD1 /* SnipApplication.xcdatamodeld */,
 			);
@@ -151,44 +147,64 @@
 			path = SnipApplicationTests;
 			sourceTree = "<group>";
 		};
-		34360216262E649700AF8FD1 /* Common Files */ = {
+		34EC88802631D7C7002878E0 /* View Models */ = {
 			isa = PBXGroup;
 			children = (
-				3436020A262E5F8700AF8FD1 /* Style.swift */,
-				34360217262E64B900AF8FD1 /* constansts.swift */,
-				3459F333262F7E9F000DF24E /* Protocols.swift */,
-			);
-			path = "Common Files";
-			sourceTree = "<group>";
-		};
-		347F5FC1263095CD0094EEC0 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				34360200262E5D7500AF8FD1 /* LoginViewModel.swift */,
-				343601F6262E5C1A00AF8FD1 /* LoginViewController.swift */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		347F5FC2263095EB0094EEC0 /* Sign Up */ = {
-			isa = PBXGroup;
-			children = (
-				343601FB262E5C2200AF8FD1 /* SIgnUpViewController.swift */,
 				3459F32F262F7D47000DF24E /* SignUpViewModel.swift */,
+				34360200262E5D7500AF8FD1 /* LoginViewModel.swift */,
+				347F5FAD2630939B0094EEC0 /* FeedViewModel.swift */,
 			);
-			path = "Sign Up";
+			path = "View Models";
 			sourceTree = "<group>";
 		};
-		347F5FC3263096220094EEC0 /* Blog */ = {
+		34EC88812631D7D9002878E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				347F5FB1263093F90094EEC0 /* Feed.swift */,
-				347F5FAD2630939B0094EEC0 /* FeedViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34EC88822631D7E7002878E0 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				343601AF262E2BA100AF8FD1 /* PersonalInfoViewController.swift */,
 				347F5FA9263092D20094EEC0 /* FeedViewController.swift */,
+				343601F1262E5C1100AF8FD1 /* LoginSignUpViewController.swift */,
+				343601FB262E5C2200AF8FD1 /* SIgnUpViewController.swift */,
+				343601F6262E5C1A00AF8FD1 /* LoginViewController.swift */,
 				3459F33926306C7E000DF24E /* BlogTableViewCell.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		34EC88832631D80D002878E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				343601AB262E2BA100AF8FD1 /* AppDelegate.swift */,
+				343601AD262E2BA100AF8FD1 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34EC88922631D873002878E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				34360217262E64B900AF8FD1 /* constansts.swift */,
+				3436020A262E5F8700AF8FD1 /* Style.swift */,
+				3459F333262F7E9F000DF24E /* Protocols.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34EC88972631D899002878E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				343601B9262E2BA500AF8FD1 /* LaunchScreen.storyboard */,
+				343601B1262E2BA100AF8FD1 /* Main.storyboard */,
 				3459F33A26306C7E000DF24E /* BlogTableViewCell.xib */,
 			);
-			path = Blog;
+			path = View;
 			sourceTree = "<group>";
 		};
 		B6DA874A3C8311D343CF689E /* Frameworks */ = {
